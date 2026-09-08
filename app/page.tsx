@@ -498,7 +498,7 @@ export default function Home() {
   <p className="mt-4 text-sm leading-6 text-slate-500">
     University of Washington · M.S. in Information Management · 2026
   </p>
-</div> twenty second septembers
+</div> 
 
           {/* Education Content */}
           <div>
