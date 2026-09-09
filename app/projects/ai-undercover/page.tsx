@@ -584,7 +584,7 @@ export default function AIUndercoverPage() {
       <section className="mx-auto max-w-7xl px-6 py-20">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-purple-700">
           Research at a glance
-        </p>
+        </p> imp impact these are my career impacts projects can you do game similarly to few startup lab recognition it do heard business I need to put a liphone threaty of me to move
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {headlineStats.map((stat) => (
@@ -1391,7 +1391,7 @@ export default function AIUndercoverPage() {
             <p className="mt-1 text-xl font-bold">
               Explore another project
             </p>
-          </div> Hi, many synchronous my vehicle I think there was a kind of attent and and at a bottom end of my vehicle because of because of low ground clearance so I wanted it to be checked so can I come now it's a Tesla model free okay but then I it's it's a minor kind of thing so and yeah but then underneath can I kind of three o'clock SUNAYANARIKAN I had last year I had a taken my car for work at your my esla car for work at your base I have a new problem and I would want to talk I would want to show it to you so are your video today can I come now it's it's a very minor damage okay but then this is out of pocket I'll I'll come by in about half an hour I'm sorry it just came in because of
+          </div> 
 
           <a
             href="/#projects"
