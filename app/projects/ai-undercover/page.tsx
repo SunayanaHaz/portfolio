@@ -1391,7 +1391,7 @@ export default function AIUndercoverPage() {
             <p className="mt-1 text-xl font-bold">
               Explore another project
             </p>
-          </div> 
+          </div> something that we will go in the next way structure and provides correlations are in the future or driver in share or like subsidiar suchas fusion it brilliant use number is loly smart songs mistry if you are so find with capture
 
           <a
             href="/#projects"

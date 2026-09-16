@@ -25,10 +25,12 @@ const projects = [
       "Opportunity Sizing",
       "Consulting",
     ],
+    href: "/projects/costco-bi",
   },
   {
     title: "Stanley 1913 GCC Market Entry",
     recognition: "1st Place · EY × Stanley 1913 Case Challenge",
+    href: "/projects/stanley-gcc",
     category: "Strategy Consulting · Market Expansion",
     description:
       "Led a consulting team in developing a phased GCC market-entry strategy, beginning with a UAE launch hub and expanding into Saudi Arabia, Qatar, and the wider region.",
@@ -40,31 +42,47 @@ const projects = [
     ],
   },
   {
-    title: "SheBuilds Solutions",
-    recognition: "Winner · WE Lead × Lovable Solve-a-thon",
-    category: "AI Innovation · Women's Health",
-    description:
-      "Led a team from concept to working AI-built prototype in one day, addressing women's healthspan, preventive care, and community support.",
-    skills: [
-      "AI Prototyping",
-      "Lovable",
-      "Product Strategy",
-      "Team Leadership",
-    ],
-  },
+  title: "Where Technology Fails | Data4Lyf",
+  recognition: "DubsTech Datathon 2026 · Technology Track",
+  category: "Data Science · Machine Learning · Business Intelligence",
+  description:
+    "Analyzed 3,524 accessibility violations across ~590 web pages using severity-based risk scoring, Random Forest, K-Means clustering, and Power BI to uncover systemic accessibility barriers and prioritize remediation.",
+  skills: [
+    "Python",
+    "Machine Learning",
+    "K-Means",
+    "Power BI",
+  ],
+  href: "/projects/data4lyf",
+},
   {
-    title: "KitchenGuide",
-    recognition: "Winner · AIMS Product Competition 2026",
-    category: "Predictive AI · SaaS Strategy",
-    description:
-      "Co-developed an AI-powered SaaS concept using forecasting, real-time prediction, and adaptive learning to reduce perishable-food waste in fast-casual restaurants.",
-    skills: [
-      "Predictive Analytics",
-      "AI Strategy",
-      "Financial Modeling",
-      "GTM",
-    ],
-  },
+  title: "SheBloom — Women's Health & Wellness",
+  recognition: "Winner · WE Lead × Lovable Solve-a-thon",
+  category: "AI Product · Women's Health · Rapid Prototyping",
+  description:
+    "Designed and built a women's health and wellness experience that brings personalized health guidance, wellness support, and accessible resources into one user-centered platform.",
+  skills: [
+    "AI Product Strategy",
+    "Rapid Prototyping",
+    "UX Design",
+    "Lovable",
+  ],
+  href: "/projects/shebloom",
+},
+  {
+  title: "KitchenGuide — FreshOps AI",
+  recognition: "AIMS Product Competition 2026",
+  category: "AI Product · Decision Automation · Restaurant Operations",
+  description:
+    "Designed an AI-driven decision automation concept for regional fast-casual chains, translating demand signals into real-time kitchen guidance with behavioral adoption metrics, financial modeling, and a scalable SaaS strategy.",
+  skills: [
+    "AI Product Strategy",
+    "Decision Automation",
+    "Financial Modeling",
+    "Change Management",
+  ],
+  href: "/projects/kitchenguide",
+},
   {
     title: "ResolveIQ",
     recognition: "Finalist · Dempsey Startup Competition 2026",
@@ -584,7 +602,7 @@ export default function Home() {
               className="rounded-lg border border-slate-600 px-6 py-3 font-bold transition hover:border-white hover:bg-slate-900"
             >
               Connect on LinkedIn
-            </a>
+            </a> impact these are my career impacts projects can you do game
 
             <a
               href="/Sunayana-Hazarika-Resume.pdf"
