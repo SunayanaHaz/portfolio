@@ -602,7 +602,7 @@ export default function Home() {
               className="rounded-lg border border-slate-600 px-6 py-3 font-bold transition hover:border-white hover:bg-slate-900"
             >
               Connect on LinkedIn
-            </a> impact these are my career impacts projects can you do game
+            </a> 
 
             <a
               href="/Sunayana-Hazarika-Resume.pdf"
