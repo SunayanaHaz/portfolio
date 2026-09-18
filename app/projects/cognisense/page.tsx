@@ -13,89 +13,199 @@ export default function CogniSensePage() {
   return (
     <main className="min-h-screen bg-white text-slate-950">
       {/* HERO */}
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+<section className="border-b border-slate-200 bg-white">
+  <div className="mx-auto max-w-7xl px-6 py-16 md:py-20">
+    <a
+      href="/"
+      className="text-sm font-semibold text-slate-500 transition hover:text-slate-950"
+    >
+      ← Back to Portfolio
+    </a>
+
+    <div className="mt-12 grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+      
+      {/* LEFT — PROJECT INTRO */}
+      <div>
+        <p className="text-sm font-bold uppercase tracking-[0.2em] text-violet-600">
+          AI Product Concept · Human-Centered Design · Rapid Prototyping
+        </p>
+
+        <h1 className="mt-4 text-4xl font-bold tracking-tight md:text-6xl">
+          CogniSense → CogniWise
+        </h1>
+
+        <p className="mt-5 text-xl leading-8 text-slate-600 md:text-2xl">
+          Exploring how AI and data could make hidden cognitive signals
+          visible, understandable, and actionable
+        </p>
+
+        <p className="mt-6 text-base leading-8 text-slate-600">
+          CogniSense began as a speculative exploration of hidden cognitive
+          states: signals such as attention, comprehension, memory, emotion,
+          cognitive load, and other changes that people cannot always
+          directly perceive. Across multiple prototypes, the idea was
+          explored in two contexts — adaptive learning and cognitive
+          wellness — connected by one product question: what if technology
+          could help people understand signals that are normally invisible
+          to them?
+        </p>
+
+        {/* SKILLS */}
+        <div className="mt-8 flex flex-wrap gap-2">
+          {skills.map((skill) => (
+            <span
+              key={skill}
+              className="rounded-md border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm font-medium text-slate-600"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+
+        {/* SUPPORTING LINKS */}
+        <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href="/"
-            className="text-sm font-semibold text-slate-500 transition hover:text-slate-950"
+            href="https://devpost.com/software/cognisense-io71rb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
           >
-            ← Back to Portfolio
+            View CogniSense ↗
           </a>
 
-          <p className="mt-12 text-sm font-bold uppercase tracking-[0.2em] text-violet-600">
-            AI Product Concept · Human-Centered Design · Rapid Prototyping
-          </p>
+          <a
+            href="https://www.figma.com/make/TemZSThM8Mcg3DBUIr47HG/Design-CogniSense-Dashboard-UI?t=qyDy8gLLWRqnv4qO-0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
+            Figma Prototype ↗
+          </a>
+        </div>
+      </div>
 
-          <h1 className="mt-4 text-4xl font-bold tracking-tight md:text-6xl">
-            CogniSense → CogniWise
-          </h1>
-
-          <p className="mt-5 max-w-4xl text-xl leading-8 text-slate-600 md:text-2xl">
-            Exploring how AI and data could make hidden cognitive signals
-            visible, understandable, and actionable
-          </p>
-
-          <p className="mt-6 max-w-4xl text-base leading-8 text-slate-600">
-            CogniSense began as a speculative exploration of hidden cognitive
-            states: signals such as attention, comprehension, memory, emotion,
-            cognitive load, and other changes that people cannot always
-            directly perceive. Across multiple prototypes, the idea was
-            explored in two contexts — adaptive learning and cognitive
-            wellness — connected by one product question: what if technology
-            could help people understand signals that are normally invisible
-            to them?
-          </p>
-
-          <div className="mt-8 flex flex-wrap gap-2">
-            {skills.map((skill) => (
-              <span
-                key={skill}
-                className="rounded-md border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm font-medium text-slate-600"
-              >
-                {skill}
-              </span>
-            ))}
+      {/* RIGHT — INTERACTIVE PROTOTYPES */}
+      <div>
+        <div className="mb-5 flex items-center justify-between">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-violet-600">
+              Interactive Product Experiences
+            </p>
+            <h2 className="mt-1 text-xl font-bold text-slate-950">
+              Explore the prototypes
+            </h2>
           </div>
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="https://devpost.com/software/cognisense-io71rb"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
-              View CogniSense ↗
-            </a>
-
-            <a
-              href="https://www.figma.com/make/TemZSThM8Mcg3DBUIr47HG/Design-CogniSense-Dashboard-UI?t=qyDy8gLLWRqnv4qO-0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-            >
-              Figma Prototype ↗
-            </a>
-
-            <a
-              href="https://congiwise.lovable.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-            >
-              CogniWise Prototype ↗
-            </a>
-
-            <a
-              href="https://cogniwise-web.vercel.app/dashboard"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
-            >
-              CogniWise Dashboard ↗
-            </a>
+          <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-violet-500 opacity-75" />
+              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-violet-600" />
+            </span>
+            LIVE
           </div>
         </div>
-      </section>
+
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+          
+          {/* PROTOTYPE 1 */}
+          <div>
+            <div className="mb-3 flex items-center justify-between">
+              <p className="text-sm font-bold text-slate-800">
+                CogniWise Web
+              </p>
+
+              <a
+                href="https://cogniwise-web.vercel.app/dashboard"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-semibold text-violet-600 transition hover:text-violet-900"
+              >
+                Full screen ↗
+              </a>
+            </div>
+
+            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-lg">
+              
+              {/* Browser Bar */}
+              <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-100 px-3 py-2.5">
+                <div className="flex gap-1.5">
+                  <span className="h-2 w-2 rounded-full bg-red-400" />
+                  <span className="h-2 w-2 rounded-full bg-amber-400" />
+                  <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                </div>
+
+                <div className="ml-1 flex-1 truncate rounded bg-white px-2 py-1 text-center text-[9px] text-slate-400">
+                  cogniwise-web.vercel.app
+                </div>
+              </div>
+
+              {/* LIVE PROTOTYPE */}
+              <div className="h-[500px] bg-white">
+                <iframe
+                  src="https://cogniwise-web.vercel.app/dashboard"
+                  title="CogniWise Web Interactive Prototype"
+                  className="h-full w-full border-0"
+                  loading="lazy"
+                  allow="clipboard-write"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* PROTOTYPE 2 */}
+          <div>
+            <div className="mb-3 flex items-center justify-between">
+              <p className="text-sm font-bold text-slate-800">
+                CogniWise Lovable
+              </p>
+
+              <a
+                href="https://congiwise.lovable.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-semibold text-violet-600 transition hover:text-violet-900"
+              >
+                Full screen ↗
+              </a>
+            </div>
+
+            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-lg">
+              
+              {/* Browser Bar */}
+              <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-100 px-3 py-2.5">
+                <div className="flex gap-1.5">
+                  <span className="h-2 w-2 rounded-full bg-red-400" />
+                  <span className="h-2 w-2 rounded-full bg-amber-400" />
+                  <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                </div>
+
+                <div className="ml-1 flex-1 truncate rounded bg-white px-2 py-1 text-center text-[9px] text-slate-400">
+                  congiwise.lovable.app
+                </div>
+              </div>
+
+              {/* LIVE PROTOTYPE */}
+              <div className="h-[500px] bg-white">
+                <iframe
+                  src="https://congiwise.lovable.app"
+                  title="CogniWise Lovable Interactive Prototype"
+                  className="h-full w-full border-0"
+                  loading="lazy"
+                  allow="clipboard-write"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p className="mt-4 text-center text-xs leading-5 text-slate-500">
+          Explore both prototypes directly — scroll, click, and navigate.
+          Prototype content is conceptual and not a validated clinical system.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* PROJECT THESIS */}
       <section className="bg-slate-50">
