@@ -13,20 +13,7 @@ const projects = [
     ],
     href: "/projects/ai-undercover",
   },
-  {
-    title: "Costco Business Intelligence Consulting",
-    recognition: "Graduate Consulting Project",
-    category: "Business Intelligence · Data Strategy",
-    description:
-      "Developed a BI consulting proposal covering predictive supply-chain resilience, membership churn analytics, KPI design, and a unified cloud data warehouse roadmap.",
-    skills: [
-      "Business Intelligence",
-      "Data Strategy",
-      "Opportunity Sizing",
-      "Consulting",
-    ],
-    href: "/projects/costco-bi",
-  },
+  
   {
   title: "CogniSense → CogniWise",
   recognition: "Figma Education Hackathon",
@@ -96,6 +83,20 @@ const projects = [
       "Prototyping",
     ],
     href: "/projects/resolveiq",
+  },
+  {
+    title: "Costco Business Intelligence Consulting",
+    recognition: "Graduate Consulting Project",
+    category: "Business Intelligence · Data Strategy",
+    description:
+      "Developed a BI consulting proposal covering predictive supply-chain resilience, membership churn analytics, KPI design, and a unified cloud data warehouse roadmap.",
+    skills: [
+      "Business Intelligence",
+      "Data Strategy",
+      "Opportunity Sizing",
+      "Consulting",
+    ],
+    href: "/projects/costco-bi",
   },
     {
   title: "KitchenGuide — FreshOps AI",
