@@ -155,7 +155,19 @@ const projects = [
     "https://startup.ischool.uw.edu/grants/#:~:text=Hazarika%20(MSIM%20%E2%80%9926)-,Bhagyashree%20Vaidya,-(INFO%20%E2%80%9926)",
   externalLabel: "View UW iStartup Lab recognition →",
 },
-  
+  {
+  title: "LOOP — Gen Z Social Commerce Venture",
+  recognition: "TCA × ICG × IUGA Case Competition",
+  category: "AI Product · Venture Strategy · Social Commerce",
+  description:
+    "Designed a Gen Z social commerce venture combining AI-powered discovery, creator commerce, resale, and retail data intelligence to transform a legacy retailer into an owned digital ecosystem.",
+  skills: [
+    "Venture Strategy",
+    "AI Product Strategy",
+    "Business Model",
+    "GTM Strategy",
+  ],
+},
 ];
 
 const capabilities = [
