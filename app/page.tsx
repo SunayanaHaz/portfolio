@@ -28,6 +28,20 @@ const projects = [
     href: "/projects/costco-bi",
   },
   {
+  title: "CogniSense → CogniWise",
+  recognition: "Figma Education Hackathon",
+  category: "AI · Cognitive Wellness · Product Design",
+  description:
+  "Explored how AI and data could make hidden cognitive states visible and actionable across adaptive learning and speculative cognitive-wellness prototypes.",
+  skills: [
+    "AI Product Strategy",
+    "Human-Centered AI",
+    "UX Design",
+    "Rapid Prototyping",
+  ],
+  href: "/projects/cognisense",
+},
+  {
     title: "Stanley 1913 GCC Market Entry",
     recognition: "1st Place · EY × Stanley 1913 Case Challenge",
     href: "/projects/stanley-gcc",
@@ -56,20 +70,20 @@ const projects = [
   href: "/projects/data4lyf",
 },
   {
-  title: "SheBloom — Women's Health & Wellness",
-  recognition: "Winner · WE Lead × Lovable Solve-a-thon",
-  category: "AI Product · Women's Health · Rapid Prototyping",
-  description:
-    "Designed and built a women's health and wellness experience that brings personalized health guidance, wellness support, and accessible resources into one user-centered platform.",
-  skills: [
-    "AI Product Strategy",
-    "Rapid Prototyping",
-    "UX Design",
-    "Lovable",
-  ],
-  href: "/projects/shebloom",
-},
-  {
+    title: "ResolveIQ",
+    recognition: "Finalist · Dempsey Startup Competition 2026",
+    category: "Generative AI · Knowledge Management",
+    description:
+      "Designed an AI solution that turns incident-resolution conversations into structured knowledge-base articles so organizations stop repeatedly solving the same problems.",
+    skills: [
+      "Generative AI",
+      "Knowledge Management",
+      "Startup Strategy",
+      "Prototyping",
+    ],
+    href: "/projects/resolveiq",
+  },
+    {
   title: "KitchenGuide — FreshOps AI",
   recognition: "AIMS Product Competition 2026",
   category: "AI Product · Decision Automation · Restaurant Operations",
@@ -84,18 +98,20 @@ const projects = [
   href: "/projects/kitchenguide",
 },
   {
-    title: "ResolveIQ",
-    recognition: "Finalist · Dempsey Startup Competition 2026",
-    category: "Generative AI · Knowledge Management",
-    description:
-      "Designed an AI solution that turns incident-resolution conversations into structured knowledge-base articles so organizations stop repeatedly solving the same problems.",
-    skills: [
-      "Generative AI",
-      "Knowledge Management",
-      "Startup Strategy",
-      "Prototyping",
-    ],
-  },
+  title: "SheBloom — Women's Health & Wellness",
+  recognition: "Winner · WE Lead × Lovable Solve-a-thon",
+  category: "AI Product · Women's Health · Rapid Prototyping",
+  description:
+    "Designed and built a women's health and wellness experience that brings personalized health guidance, wellness support, and accessible resources into one user-centered platform.",
+  skills: [
+    "AI Product Strategy",
+    "Rapid Prototyping",
+    "UX Design",
+    "Lovable",
+  ],
+  href: "/projects/shebloom",
+},
+
   {
     title: "Confirmation Bias in AI Analytics",
     recognition: "Graduate Research",
@@ -138,19 +154,7 @@ const projects = [
     "https://startup.ischool.uw.edu/grants/#:~:text=Hazarika%20(MSIM%20%E2%80%9926)-,Bhagyashree%20Vaidya,-(INFO%20%E2%80%9926)",
   externalLabel: "View UW iStartup Lab recognition →",
 },
-  {
-    title: "CogniSense",
-    recognition: "Figma Education Hackathon",
-    category: "Human-Centered Design · Wearable Technology",
-    description:
-      "Designed and prototyped a cognitive-load-aware wearable and companion application under a 48-hour hackathon deadline.",
-    skills: [
-      "Figma",
-      "UX Design",
-      "Rapid Prototyping",
-      "Human-Centered Design",
-    ],
-  },
+  
 ];
 
 const capabilities = [
@@ -254,8 +258,8 @@ export default function Home() {
             <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-600">
               I&apos;m a techno-functional enterprise technology leader with
               15+ years of experience translating complex business problems
-              into technology solutions, data-driven decisions, product gtm
-              launches, support technology adoption and measurable growth outcomes. I recently earned an M.S. in
+              into technology solutions, data-driven decisions, GTM & product
+              launches, technology adoption and measurable growth outcomes. I recently earned an M.S. in
               Information Management from the University of Washington,
               specializing in Business Intelligence and Artificial
               Intelligence.
