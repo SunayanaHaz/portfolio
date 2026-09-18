@@ -167,6 +167,7 @@ const projects = [
     "Business Model",
     "GTM Strategy",
   ],
+  href: "/projects/loop",
 },
 ];
 
