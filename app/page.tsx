@@ -140,10 +140,10 @@ const projects = [
   },
  {
   title: "PAMA",
-  recognition: "iStartup Lab Micro Grant Winner",
-  category: "AI Startup · Digital Storytelling",
+  recognition: "iStartup Lab Micro Grant Winner · NSF I-Corps · UC Irvine Customer Discovery",
+  category: "AI Startup · Digital Storytelling · Consumer SaaS",
   description:
-    "Developed an AI-powered platform that organizes family-contributed memories into structured life biographies and received an iStartup Lab Micro Grant.",
+    "Founded acollaborative life-story venture and developed an AI-powered platform that organizes family-contributed memories into structured life biographies and received an iStartup Lab Micro Grant.",
   skills: [
     "AI Product Strategy",
     "Entrepreneurship",
@@ -153,6 +153,7 @@ const projects = [
   externalLink:
     "https://startup.ischool.uw.edu/grants/#:~:text=Hazarika%20(MSIM%20%E2%80%9926)-,Bhagyashree%20Vaidya,-(INFO%20%E2%80%9926)",
   externalLabel: "View UW iStartup Lab recognition →",
+   href: "/projects/pama",
 },
   
 ];
