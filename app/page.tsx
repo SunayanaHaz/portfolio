@@ -254,8 +254,8 @@ export default function Home() {
             <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-600">
               I&apos;m a techno-functional enterprise technology leader with
               15+ years of experience translating complex business problems
-              into technology solutions, data-driven decisions, product
-              launches, and measurable outcomes. I recently earned an M.S. in
+              into technology solutions, data-driven decisions, product gtm
+              launches, support technology adoption and measurable growth outcomes. I recently earned an M.S. in
               Information Management from the University of Washington,
               specializing in Business Intelligence and Artificial
               Intelligence.
@@ -579,13 +579,12 @@ export default function Home() {
             Let&apos;s solve an interesting business or technology problem.
           </h2>
 
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-            I&apos;m interested in opportunities where business, enterprise
-            technology, AI, data, and transformation come together — including
-            business and technical program leadership, AI transformation,
-            business systems, technology strategy, and data-driven
-            transformation.
-          </p>
+          <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-600">
+  I&apos;m interested in work where business, enterprise technology, AI,
+  and data come together — growing products and ecosystems, driving AI
+  adoption inside organizations, leading business and technical programs,
+  and building the data systems behind better decisions.
+</p>
 
           <div className="mt-9 flex flex-wrap gap-4">
             <a
